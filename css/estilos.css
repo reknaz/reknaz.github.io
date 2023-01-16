@@ -1,0 +1,15 @@
+p {
+    color: red;
+}
+
+/** esto es un comentario
+*/
+
+h2 {
+    color:green;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
