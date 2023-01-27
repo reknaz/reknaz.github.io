@@ -10,89 +10,45 @@
     <meta property="og:image" content=" http://example.com/image.jpg">
     <meta property="og:description" content="Descripcion">
     <script src="https://kit.fontawesome.com/a748888178.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="css\estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Condensed">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>Currículum Vitae</title>
 </head>
 <body>
-    <header>
-        <img id="foto" src="SUS.jpeg" alt="Foto CV" class="mx-5 my-3 rounded-circle img-fluid justify-content-start">
-        <h1 class="ms-5 ps-5 align-self-center display-1">José Martinez</h1>
+    <header class="row">
+        <div class="col-3">
+            <img src="https://www.rastrolab.com/wp-content/uploads/guy-headshot-business_result.webp" alt="Foto CV">
+        </div>
+        <div class="col-9">
+            <h1>José Martinez</h1>
+            <p class="Puesto">Trabajador Social</p>
+        </div>
     </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#Perfil">Perfil</a>
+            </li>
+            <li>
+              <a href="#Experiencia-Laboral">Experiencia</a>
+            </li>
+            <li>
+              <a href="#Formacion">Formación</a>
+            </li>
+            <li>
+              <a href="#Informacion-Personal">Información</a>
+            </li>
+        </ul>  
+    </nav>
     <main>
-        <section id="Informacion-Personal">
-            <h2>CONTACTO</h2>
-                <ul class="Contacto">
-                    <li>
-                        <i class="fa-solid fa-mobile-screen-button"></i>999-999-999
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-envelope"></i>jose.martinez@gmail.com
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-location-dot"></i>México DF
-                    </li>
-                    <li>
-                        <i class="fa-brands fa-linkedin"></i>linkedin.com/jose-martinez
-                    </li>
-                </ul>
-            <h2>IDIOMAS</h2>
-                <ul>
-                    <li>
-                        Español: Nativo
-                    </li>
-                    <li>
-                        Inglés: Bilingüe (TOEIC 950)
-                    </li>
-                    <li>
-                        Francés: Intermedio
-                    </li>
-                    </ul>
-            <h2>APTITUDES</h2>
-                <ul>
-                    <li>
-                        Inteligencia emocional
-                    </li>
-                    <li>
-                        Espiritu crítico
-                    </li>
-                    <li>
-                        Trabajo en equipo
-                    </li>
-                    <li>
-                        Capacidad analítica
-                    </li>
-                    </ul>
-            <h2>HABILIDADES</h2>
-                    <ul>
-                        <li>
-                            Acondicionamiento físico
-                        </li>
-                        <li>
-                             Creación de videos deportivos
-                        </li>
-                        <li>
-                            Pack Office
-                        </li>
-                        </ul>
-            <h2>OTROS INTERESES</h2>
-                    <ul>
-                        <li>
-                            Creador de yincanas
-                        </li>
-                        <li>
-                            Paseos ecológicos y grupales
-                        </li>
-                        <li>
-                            Lectura
-                        </li>
-                    </ul>
-        </section>        
-            
+        <div class="row">
+        <div class="col-9">  
         <section id="Perfil">
             <h2>PERFIL</h2>
             <p>Trabajador Social con 4 años de experiencia en proyectos colectivos. 
-                Mi objetivo es lograr que los jovenes obtengan acceso a la educación superior mediante logros deportivos.</p>
+                Mi objetivo es lograr que los jovenes obtengan acceso a la educación superior mediante logros deportivos.
+            </p>
         </section>
         
         <section id="Experiencia-Laboral">
@@ -129,7 +85,79 @@
             <h3>Licenciatura Profesional</h3>
             <h4><i>Universidad de la Frontera, México DF</i> | <span>2011 - 2012</span></h4>
         </section>
-
-    </main>    
+    </div>
+    <section class="col-3" id="Informacion-Personal">
+        <h2>CONTACTO</h2>
+            <ul class="Contacto">
+                <li>
+                    <i class="fa-solid fa-mobile-screen-button fa-lg fa-fw"></i>999-999-999
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope fa-lg fa-fw"></i>jose.martinez@gmail.com
+                </li>
+                <li>
+                    <i class="fa-solid fa-location-dot fa-lg fa-fw"></i>México DF
+                </li>
+                <li>
+                    <i class="fa-brands fa-linkedin fa-lg fa-fw"></i>linkedin.com/jose-martinez
+                </li>
+            </ul>
+        <h2>IDIOMAS</h2>
+            <ul>
+                <li>
+                    Español: Nativo
+                </li>
+                <li>
+                    Inglés: Bilingüe (TOEIC 950)
+                </li>
+                <li>
+                    Francés: Intermedio
+                </li>
+                </ul>
+        <h2>APTITUDES</h2>
+            <ul>
+                <li>
+                    Inteligencia emocional
+                </li>
+                <li>
+                    Espiritu crítico
+                </li>
+                <li>
+                    Trabajo en equipo
+                </li>
+                <li>
+                    Capacidad analítica
+                </li>
+                </ul>
+        <h2>HABILIDADES</h2>
+                <ul>
+                    <li>
+                        Acondicionamiento físico
+                    </li>
+                    <li>
+                         Creación de videos deportivos
+                    </li>
+                    <li>
+                        Pack Office
+                    </li>
+                    </ul>
+        <h2>OTROS INTERESES</h2>
+                <ul>
+                    <li>
+                        Creador de yincanas
+                    </li>
+                    <li>
+                        Paseos ecológicos y grupales
+                    </li>
+                    <li>
+                        Lectura
+                    </li>
+                </ul>
+    </section>        
+    </div>
+    </main>
+    <footer>
+        
+    </footer>    
 </body>
 </html>
