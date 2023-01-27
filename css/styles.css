@@ -191,3 +191,7 @@ footer {
     background-color: #585858;
     height: 40px;
 }
+
+#perfil-nav {
+    display: none;
+}
