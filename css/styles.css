@@ -12,6 +12,33 @@ body {
     width: 100%;
 }
 
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    #nombre-puesto {
+        padding: 60px 0px;
+
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -31,15 +58,16 @@ body {
         display: none;
     }
 
-    h1 {
-        padding: 70px 0 0 0;
-        text-align: left;
+    #nombre-puesto {
+        padding: 70px 0px;
+
     }
 
-    .Puesto {
-        text-align: left;
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
 
 }
 
@@ -62,8 +90,7 @@ header {
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
     border-radius: 50%;
     max-width: 100%;
     height: auto;
@@ -73,14 +100,18 @@ img {
 h1 {
     font-size: 50px;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .Puesto {
     font-size: 32px;
     text-align: center;
+    margin-top: 0px;
 }
 
 nav {
+    margin: 0;
+    padding: 0;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -119,28 +150,27 @@ li a:hover {
     background-color: #111;
 }
 
-section {
-    margin-top: 20px;
+.Info {
+    background-color: #F2F2F2;
 }
 
-#Informacion-Personal {
+#Info {
     background-color: #F2F2F2;
-    padding-top: 18px;
-    padding-bottom: 100px;
-    margin-top: 0;
+    padding-bottom: 70px;
 }
 
 h2 {
-    margin: 15px 50px 20px 50px;
+    margin: 0px 40px 20px 40px;
     border-bottom: 2px solid black;
+    padding-top: 65px;
 }
 
 p, h3 {
-    margin: 0px 50px 5px 50px;
+    margin: 0px 40px;
 }
 
 h4 {
-    margin: 0px 50px 20px 50px;
+    margin: 0px 40px 20px 40px;
 }
 
 .Contacto {
@@ -159,5 +189,5 @@ span {
 
 footer {
     background-color: #585858;
-    height: 50px;
+    height: 40px;
 }
